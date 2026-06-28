@@ -13,9 +13,10 @@ function nameFun(event) {
     const name = field.value.trim();
 
     if(name === ""){
-        out.textContent = Anonymus;
-    }
+        out.textContent = "Anonymous";
+    } else {
         out.textContent = name;
+    }
 }
 
 console.log(field);
